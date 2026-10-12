@@ -66,6 +66,8 @@ If Discord says the application doesn't have a bot in the server, the link was m
 python jev_bot.py
 ```
 
+On Windows you can double-click `run.bat` instead. It creates `.env` from the template if it's missing, installs any missing dependencies, and keeps the window open if the bot stops with an error.
+
 The bot shows as online once it's running.
 
 ## Usage
@@ -96,6 +98,7 @@ Edit `QUESTION` at the top of the file to try other questions.
 |---|---|
 | `jev_bot.py` | The Discord bot and chart rendering |
 | `jev_test.py` | Command-line test of the TypeSafe yes/no call |
+| `run.bat` | Windows launcher: checks setup, then starts the bot |
 | `.env.example` | Template for your `.env` |
 
 ## Notes
